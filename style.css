@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .task-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .btn-custom {
+    min-width: 70px;
+  }
+
+
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+#taskList .list-group-item {
+  margin-bottom: 10px;
+  border-radius: 8px; 
+  border: 0.5px solid black;
+}
+
+
+
+#taskInput{
+  border: 2.5px solid green;
+}
